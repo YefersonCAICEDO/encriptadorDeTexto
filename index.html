@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>👨‍💻 Encriptador 🧑‍💻 </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconectar" href="https://fonts.googleapis.com">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? familia= Inter:peso@200;700;800;900 & display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="./imagenes/logo.png" class="imgLogo">
+    </header>
+    <main>
+        <section>
+            <h5 class="texto1">Ingrese su texto para Encriptar/Desencriptar</h5>
+
+            <textarea type="text" class="textArea1" placeholder="Ingrese el texto aqui"></textarea>
+
+            <img src="./imagenes/alerta.png" class="imgAlerta1">
+            <h6 class="aler1"> Solo letras minúsculas y sin acentos</h6>
+
+            <img src="./imagenes/alerta.png" class="imgAlerta2">
+            <h6 class="aler2">Se aceptan números</h6>
+
+            <div>
+                <button type="button" onclick="buttonEncriptar()" class="botonEncrip">Encriptar</button>
+                <button type="button" onclick="buttonDesencriptar()" class="botonDesen"> Desencriptar </button>
+            </div>
+        </section>
+
+        <section>
+            <h5 class="texto2">Resultado</h5>
+            <form action="#" id="form" class="form">
+                <div>
+                    <img src="./imagenes/buscador.png" alt="buscador" class="muñeco" id="buscador">
+
+                    <textarea readonly="readonly" class="textArea2" placeholder="Ningún mensaje fue encontrado"></textarea>
+                    <button type="button" id="copy" class="copy">Copiar</button>
+                    <button id="paste-btn" class="paste-btn">Pegar</button>
+                    <button id="limpiar" class="limpiar">Limpiar</button>
+
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+
+    <footer>
+        <p class="pieDePagina">
+            Challenge <a href="https://www.aluracursos.com/" class="attr__lnk" target="_blank">Alura</a> - Coded by <a href="https://github.com/Irs-mp/encryption" class="attr__lnk" target="_blank">Irs</a> ♪
+        </p>
+    </footer>
+</body>
+
+
+</html>
