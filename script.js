@@ -13,7 +13,7 @@ function buttonEncriptar() {
 
 function encriptar(StringParaEncriptar) {
     if (inputTexto.value == '') {
-        alert('Ingrese texto a Encriptar')
+        alert('Ingrese texto para Encriptar')
         inputTxt.focus()
     }
 
@@ -56,7 +56,7 @@ function buttonDesencriptar() {
 
 function desencriptar(StringParaDesencriptar) {
     if (inputTexto.value == '') {
-        alert('Ingrese texto a Desencriptar');
+        alert('Ingrese texto para Desencriptar');
         inputTxt.focus()
     }
 
